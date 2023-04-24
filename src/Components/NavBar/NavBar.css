@@ -1,0 +1,28 @@
+.search {
+    margin-right: 15px;
+}
+
+.navBarSetting .active {
+    background-color: rgb(110, 103, 103);
+
+}
+
+.result-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-results {
+    display: flex;
+    overflow-x: scroll;
+    /* add scrollbars if there are many results */
+    white-space: nowrap;
+    /* prevent items from wrapping to a new line */
+}
+
+.result {
+    margin-right: 1rem;
+    /* add some space between items */
+    flex: 0 0 auto;
+    /* allow items to shrink or grow as needed */
+}

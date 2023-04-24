@@ -1,0 +1,17 @@
+.card-img-top {
+    max-height: 150px;
+    max-width: 18rem;
+    
+}
+.cardDesigns {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  

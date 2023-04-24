@@ -1,0 +1,17 @@
+.navContainer{
+    background-color: rgb(5, 7, 7);
+    height: 60px;
+}
+.btnHome{
+    margin-top: 10px;
+    height: 35px;
+    margin-left: 85%;
+    padding: 0px;
+}
+.fav{
+    margin: 5px;
+}
+.card{
+    width: 18rem;
+    margin-top: 20px;
+}

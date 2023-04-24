@@ -1,0 +1,109 @@
+.row {
+    margin-top: 2px;
+   
+    margin-left: 20px;
+    color: #fff;
+}
+.head1{
+    padding-top: 2px;
+    color: black;
+}
+.posters {
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.posterContainer {
+    position: relative;
+    display: inline-block;
+}
+
+.textDesign {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.posterText {
+    display: flex;
+    flex-grow: 1;
+    align-items: center
+}
+
+.posterText svg {
+    margin-right: 15px;
+}
+
+.selected {
+    color: red;
+  }
+  
+
+.rating {
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.imgposter {
+    max-height: 250px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.smallPoster {
+    max-height: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.imgposter:hover {
+    transform: scale(1.1);
+    border: #fff 1px solid;
+}
+
+
+
+.smallPoster:hover {
+    transform: scale(1.1);
+    border: #fff 1px solid;
+
+
+}
+
+button {
+    background-color: rgb(12, 3, 3);
+    color: rgb(244, 244, 238);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 2px;
+
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add media query for screens with a max-width of 768px */
+@media (max-width: 768px) {
+    .posters {
+        flex-wrap: wrap;
+    }
+
+    .imgposter,
+    .smallPoster {
+        max-height: 200px;
+        margin-right: 5px;
+    }
+}
